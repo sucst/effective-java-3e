@@ -4,9 +4,12 @@ package effectivejava.chapter4.item19;
 public class Super {
     // Broken - constructor invokes an overridable method
     public Super() {
+        System.out.println("Super overrideMe()");
         overrideMe();
+        System.out.println("Super overrideMe()");
     }
 
     public void overrideMe() {
+        System.out.println("Super override me");
     }
 }
