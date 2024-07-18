@@ -1,6 +1,9 @@
 package effectivejava.chapter4.item22.constantinterface;
 
-// Constant interface antipattern - do not use!
+/**
+ * Constant interface antipattern - do not use!
+ * ObjectStreamConstants 反面教材
+ */
 public interface PhysicalConstants {
     // Avogadro's number (1/mol)
     static final double AVOGADROS_NUMBER   = 6.022_140_857e23;

@@ -13,7 +13,7 @@ public final class Sub extends Super {
 
     // Overriding method invoked by superclass constructor
     @Override public void overrideMe() {
-        System.out.println(instant);
+        System.out.println("instant " + instant);
     }
 
     public static void main(String[] args) {
